@@ -71,7 +71,7 @@ const connectWithDb = async () => {
 };
 connectWithDb();
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
     console.log(`App is started at Port no ${PORT}`);
