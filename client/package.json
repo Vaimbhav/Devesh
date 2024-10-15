@@ -1,7 +1,7 @@
 {
   "name": "devesh-todo",
   "version": "0.1.0",
-  "proxy": "http://localhost:8080",
+  "proxy": "https://devesh.onrender.com/",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^2.1.10",
