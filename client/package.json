@@ -1,0 +1,52 @@
+{
+  "name": "devesh-todo",
+  "version": "0.1.0",
+  "proxy": "http://localhost:8080",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^2.1.10",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "clsx": "^2.1.1",
+    "concurrently": "^9.0.1",
+    "framer-motion": "^11.11.9",
+    "proxy": "^2.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "5.0.1",
+    "react-social-icons": "^6.18.0",
+    "tailwind": "^4.0.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss": "^3.4.14",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "cd server && npm run dev ",
+    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
