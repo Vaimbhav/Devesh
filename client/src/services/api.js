@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api";
+const API_URL = "https://devesh.onrender.com/api";
 
 // Set default headers
 const api = axios.create({
