@@ -23,6 +23,7 @@ export const fetchPosts = async () => {
 };
 // Fetch a single post by ID
 export const fetchPostById = async (postId) => {
+  console.log("postId", postId);
   return await api.get(`/posts/${postId}`);
 };
 
